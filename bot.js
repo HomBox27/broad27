@@ -43,7 +43,7 @@ client.on('message', message => { // هاذا للبرودكسات
             .addField('» السيرفر :', `${message.guild.name}`)
             .addField('» المرسل : ', `${message.author.username}#${message.author.discriminator}`)
             .addField(' » الرسالة : ', args)
-            .setColor('#000000')
+            .setColor('#ff0000')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
         });
