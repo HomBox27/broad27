@@ -21,7 +21,7 @@ client.on('message', message => { // هاذا للبرودكسات
 		.setTitle(`:mailbox_with_mail: **هل انت متأكد انك تريد ارسال رسالتك الى** ${message.guild.memberCount} **عضو**`)
 		.setThumbnail(client.user.avatarURL)
 		.setColor('RANDOM')
-		.setDescription(`**\n:envelope: ➥ رسالتك**\n\n${args}`)
+		.setDescription(`**\n:envelope: ➥ الرسالة التي تريد إرسالها**\n\n${args}`)
 		.setTimestamp()
 		.setFooter(message.author.tag, message.author.avatarURL)
 		
